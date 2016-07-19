@@ -169,6 +169,7 @@
     Piecon.reset = function() {
         if (originalTitle) {
             document.title = originalTitle;
+            originalTitle = null;
         }
 
         if (originalFavicon) {
